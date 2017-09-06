@@ -82,6 +82,8 @@ namespace TestConsole
             Console.WriteLine(List_ary.Count);
 
             Console.ReadLine();
+
+            //------------
         }
         public static string PointConvert(float num, int point_length)
         {
