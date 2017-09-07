@@ -85,6 +85,8 @@ namespace TestConsole
 
             var jtest = JsonConvert.DeserializeObject("");
 
+            int itest = 1 / 0;
+
             Console.ReadLine();
 
             //------------haha11
