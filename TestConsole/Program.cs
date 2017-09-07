@@ -63,6 +63,7 @@ namespace TestConsole
             Console.WriteLine(uri.AbsoluteUri);
             Console.WriteLine(domain);
             Console.WriteLine(uri_query);
+            Console.WriteLine("");
 
 
             string str1 = "http://endic.naver.com/search.nhn?sLn=kr&isOnlyViewEE=N&query=Certification";
@@ -84,6 +85,10 @@ namespace TestConsole
             Console.ReadLine();
 
             //------------
+
+
+
+
 
 
 
