@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using Newtonsoft.Json;
 
 namespace TestConsole
 {
@@ -81,6 +82,8 @@ namespace TestConsole
             string str_ary = "a;b;c;d";
             List<string> List_ary = str_ary.Split(';').ToList();
             Console.WriteLine(List_ary.Count);
+
+            var jtest = JsonConvert.DeserializeObject("");
 
             Console.ReadLine();
 
