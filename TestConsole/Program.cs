@@ -85,6 +85,10 @@ namespace TestConsole
 
             var jtest = JsonConvert.DeserializeObject("");
 
+
+            Class1 cls = new Class1();
+            int Age = cls.GetAge(10);
+
             Console.ReadLine();
 
             //------------haha11
