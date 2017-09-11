@@ -92,7 +92,7 @@ namespace TestConsole
             Console.ReadLine();
 
             //------------
-            //------------bbbbbbbbbbb
+            //------------c
         }
         public static string PointConvert(float num, int point_length)
         {
