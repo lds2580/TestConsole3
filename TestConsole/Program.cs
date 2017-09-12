@@ -89,6 +89,9 @@ namespace TestConsole
             Class1 cls = new Class1();
             int Age = cls.GetAge(10);
 
+            //System.IO.File.Open(@"d:\test2.txt", FileMode.OpenOrCreate);
+            //System.IO.File.Open(@"D:\_Source\Tenping\Global_Tenping\Tenping.Web.Biz\Pack\language.json", FileMode.OpenOrCreate);
+
             Console.ReadLine();
 
             //------------
